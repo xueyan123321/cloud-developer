@@ -12,7 +12,7 @@ const router: Router = Router();
 
 // @ts-ignore
 async function generatePassword(plainTextPassword: string): Promise<string> {
-    //@TODO Use Bcrypt to Generated Salted Hashed Passwords
+    //@TODO Use Bcrypt to Generated Salted Hashed Password
 }
 
 // @ts-ignore
