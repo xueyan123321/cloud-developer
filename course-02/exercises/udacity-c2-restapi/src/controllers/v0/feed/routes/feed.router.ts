@@ -17,7 +17,7 @@ router.get('/', async (req: Request, res: Response) => {
 });
 
 //@TODO
-//Add an endpoint to GET a specific resource by Primary Key
+//Add an endpoint to GET a specific resource by Primary Ke
 router.get('/:id', async (req: Request, res: Response) => {
         let { id } = req.params;
         const item = await FeedItem.findByPk(id);
